@@ -8,10 +8,10 @@ const likesProgramming = confirm('Do you like programming?');
 
 console.log(name, age, likesProgramming);
 
-
 console.log(typeof name, typeof age, typeof likesProgramming);
 
-const greeting =  `Welcome ${name}.`;
+
+const greeting =  `Welcome! ${name}.`;
 
 alert(greeting)
 
