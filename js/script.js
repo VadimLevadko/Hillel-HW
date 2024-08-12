@@ -2,19 +2,19 @@
 
 let firstNum = +prompt('What is the first number?');
 
-while(firstNum <= 0 || isNaN(firstNum)) {
+while(firstNum <= -1 || isNaN(firstNum)) {
     firstNum = +prompt('Error! What is the first number?');
 }
 
 let secondNum = +prompt('What is the second number?');
 
-while(secondNum <= 0 || isNaN(secondNum)) {
+while(secondNum <= -1 || isNaN(secondNum)) {
     secondNum = +prompt('Error! What is the second number?');
 }
 
 let thirdNum = +prompt('What is the third number?');
 
-while(thirdNum <= 0 || isNaN(thirdNum)) {
+while(thirdNum <= -1 || isNaN(thirdNum)) {
     thirdNum = +prompt('Error! What is the third number?');
 }
 
