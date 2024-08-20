@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7b8787a-381e-4787-8cd7-0b692de873ea" name="Changes" comment="Homework 12 reload">
+    <list default="true" id="b7b8787a-381e-4787-8cd7-0b692de873ea" name="Changes" comment="Added Prettier and Eslint to main">
       <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
@@ -27,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw10" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +60,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "Node.js.script.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "hw13",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -123,7 +123,7 @@
       <workItem from="1724146106720" duration="1043000" />
       <workItem from="1724147167892" duration="332000" />
       <workItem from="1724147512419" duration="55000" />
-      <workItem from="1724147579819" duration="748000" />
+      <workItem from="1724147579819" duration="7714000" />
     </task>
     <task id="LOCAL-00001" summary="First commit from Webstorm">
       <option name="closed" value="true" />
@@ -309,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724148218466</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added Prettier and Eslint to main">
+      <option name="closed" value="true" />
+      <created>1724148407868</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1724148407868</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +340,7 @@
     <MESSAGE value="Homework 10 finished" />
     <MESSAGE value="Homework 11 finished" />
     <MESSAGE value="Homework 12 reload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 12 reload" />
+    <MESSAGE value="Added Prettier and Eslint to main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Prettier and Eslint to main" />
   </component>
 </project>
