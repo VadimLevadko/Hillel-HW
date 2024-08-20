@@ -1,0 +1,15 @@
+Index: js/script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>console.log(\"Hello World!\");
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/js/script.js b/js/script.js
+--- a/js/script.js	
++++ b/js/script.js	
+@@ -1,1 +1,1 @@
+-console.log("Hello World!");
+\ No newline at end of file
++'use strict';
+\ No newline at end of file

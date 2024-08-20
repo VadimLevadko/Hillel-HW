@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b7b8787a-381e-4787-8cd7-0b692de873ea" name="Changes" comment="Homework 11 finished">
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hw10" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VadimLevadko&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VadimLevadko/Hillel-HW.git&quot;,
+    &quot;accountId&quot;: &quot;fb3d0e38-498d-4cd6-aaef-fe515a521556&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2k1OkEf8j0HsdlYThaupOkxY3dQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Node.js.script.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "hw12",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\vadim\\WebstormProjects\\Hillel-HW\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vadim\WebstormProjects\Hillel-HW\js" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7b8787a-381e-4787-8cd7-0b692de873ea" name="Changes" comment="" />
+      <created>1722447756684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722447756684</updated>
+      <workItem from="1722447757764" duration="1096000" />
+      <workItem from="1722449486717" duration="293000" />
+      <workItem from="1722449819427" duration="45000" />
+      <workItem from="1722449878460" duration="386000" />
+      <workItem from="1722450276812" duration="78000" />
+      <workItem from="1722450360705" duration="341000" />
+      <workItem from="1722450709600" duration="2756000" />
+      <workItem from="1722509857049" duration="761000" />
+      <workItem from="1722686687191" duration="600000" />
+      <workItem from="1722891008402" duration="77000" />
+      <workItem from="1722891094258" duration="1509000" />
+      <workItem from="1722970937343" duration="5116000" />
+      <workItem from="1723484326878" duration="901000" />
+      <workItem from="1723489947262" duration="889000" />
+      <workItem from="1723548721799" duration="131000" />
+      <workItem from="1723548864152" duration="369000" />
+      <workItem from="1723549242800" duration="1097000" />
+      <workItem from="1723550358488" duration="84000" />
+      <workItem from="1723550450360" duration="338000" />
+      <workItem from="1723551018339" duration="1966000" />
+      <workItem from="1723553010651" duration="321000" />
+      <workItem from="1723553342031" duration="9720000" />
+      <workItem from="1723579155637" duration="5318000" />
+      <workItem from="1723584526577" duration="2394000" />
+      <workItem from="1723753465577" duration="651000" />
+      <workItem from="1723756088358" duration="142000" />
+      <workItem from="1724146106720" duration="1043000" />
+      <workItem from="1724147167892" duration="332000" />
+      <workItem from="1724147512419" duration="55000" />
+      <workItem from="1724147579819" duration="509000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit from Webstorm">
+      <option name="closed" value="true" />
+      <created>1722448196354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722448196354</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit from Webstorm">
+      <option name="closed" value="true" />
+      <created>1722448215869</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722448215869</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add Script in HTML">
+      <option name="closed" value="true" />
+      <created>1722448337630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722448337630</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Homework 1">
+      <option name="closed" value="true" />
+      <created>1722448530352</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722448530352</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Homework 1 Complete">
+      <option name="closed" value="true" />
+      <created>1722450163081</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722450163081</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add use strict">
+      <option name="closed" value="true" />
+      <created>1722450385629</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722450385629</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Homework 2 finished">
+      <option name="closed" value="true" />
+      <created>1722451984140</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722451984140</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Homework 3 finished">
+      <option name="closed" value="true" />
+      <created>1722452658345</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722452658345</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Homework 2 reload">
+      <option name="closed" value="true" />
+      <created>1722510351075</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722510351075</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Homework 2 reload">
+      <option name="closed" value="true" />
+      <created>1722510616182</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722510616182</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Homework 4 finished">
+      <option name="closed" value="true" />
+      <created>1722892113696</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722892113696</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Homework 4 finished">
+      <option name="closed" value="true" />
+      <created>1722892329907</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722892329907</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Homework 7 is finished">
+      <option name="closed" value="true" />
+      <created>1722973608825</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722973608825</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Homework 8 is finished">
+      <option name="closed" value="true" />
+      <created>1722975274496</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722975274496</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Homework 8 is reload">
+      <option name="closed" value="true" />
+      <created>1723484625249</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723484625249</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Homework 12 finished">
+      <option name="closed" value="true" />
+      <created>1723565429530</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723565429530</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Homework 12 finished">
+      <option name="closed" value="true" />
+      <created>1723565535536</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723565535536</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Homework 12 finished">
+      <option name="closed" value="true" />
+      <created>1723565704202</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723565704202</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Homework 10 finished">
+      <option name="closed" value="true" />
+      <created>1723584621755</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723584621755</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Homework 10 finished">
+      <option name="closed" value="true" />
+      <created>1723584680589</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723584680589</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Homework 10 finished">
+      <option name="closed" value="true" />
+      <created>1723584729415</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1723584729415</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Homework 11 finished">
+      <option name="closed" value="true" />
+      <created>1723586934616</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723586934616</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit from Webstorm" />
+    <MESSAGE value="Add Script in HTML" />
+    <MESSAGE value="Homework 1" />
+    <MESSAGE value="Homework 1 Complete" />
+    <MESSAGE value="Add use strict" />
+    <MESSAGE value="Homework 2 finished" />
+    <MESSAGE value="Homework 3 finished" />
+    <MESSAGE value="Homework 2 reload" />
+    <MESSAGE value="Homework 4 finished" />
+    <MESSAGE value="Homework 7 is finished" />
+    <MESSAGE value="Homework 8 is finished" />
+    <MESSAGE value="Homework 8 is reload" />
+    <MESSAGE value="Homework 12 finished" />
+    <MESSAGE value="Homework 10 finished" />
+    <MESSAGE value="Homework 11 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 11 finished" />
+  </component>
+</project>
