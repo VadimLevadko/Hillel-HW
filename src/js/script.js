@@ -1,12 +1,12 @@
-const someString = prompt('Введіть щось');
-const stringLength = +prompt('Введіть довжину рядка');
-const strSymbol = prompt('Введіть символ');
-const isTrue = confirm('Введіть з якої сторони доповнювати символи: \n Ok - ліворуч \n Отмена - праворуч');
+const someString = prompt('Введіть щось у текстове поле нижче для продовження');
+const stringLength = +prompt('Введіть довжину рядка для подальшої обробки');
+const strSymbol = prompt('Введіть символ для продовження');
+const isTrue = confirm('Введіть, з якої сторони доповнювати символи: \n Ok - ліворуч \n Отмена - праворуч');
 
 function padString(str, strLength, symbol, rightOrLeft = false) {
-  if (!str) return 'Помилка! Схоже що ви нічого не ввели в поле!';
-  if (strLength <= 0 || Number.isNaN(strLength)) return 'Помилка! Схоже ви ввели довжину 0 або -число! Або ввели щось крім числа...';
-  if (!symbol || symbol.length > 1) return 'Помилка! Схоже що ви нічого не ввели в поле для символа! (Допустима кількість символів - 1!)';
+  if (!str) return 'Помилка! Схоже, що ви нічого не ввели в текстове поле!';
+  if (strLength <= 0 || Number.isNaN(strLength)) return 'Помилка! Схоже, ви ввели довжину 0 або негативне число, або ж ввели щось крім числа. Будь ласка, введіть коректне числове значення';
+  if (!symbol || symbol.length > 1) return 'Помилка! Схоже, що ви нічого не ввели в поле для символа! (Допустима кількість символів - 1)';
   if (strLength < str.length) return str.substring(0, strLength);
 
   let result = '';
