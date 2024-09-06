@@ -94,7 +94,6 @@ const deleteLetter = function (word, letters) {
         deleted = true;
       } else {
         result += word[i];
-        deleted = false;
         break;
       }
     }
