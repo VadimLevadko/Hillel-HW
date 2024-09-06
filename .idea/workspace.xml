@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7b8787a-381e-4787-8cd7-0b692de873ea" name="Changes" comment="Fixed use strict mode now is not deleted">
+    <list default="true" id="b7b8787a-381e-4787-8cd7-0b692de873ea" name="Changes" comment="Homework 18 refresh">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
     </list>
@@ -58,7 +59,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw21&quot;,
     &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
@@ -125,6 +126,8 @@
       <workItem from="1724147579819" duration="748000" />
       <workItem from="1725361488902" duration="402000" />
       <workItem from="1725362711290" duration="727000" />
+      <workItem from="1725616239930" duration="1123000" />
+      <workItem from="1725617480956" duration="2977000" />
     </task>
     <task id="LOCAL-00001" summary="First commit from Webstorm">
       <option name="closed" value="true" />
@@ -359,6 +362,7 @@
     <MESSAGE value="Homework 12 reload" />
     <MESSAGE value="Homework 15 finished" />
     <MESSAGE value="Fixed use strict mode now is not deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed use strict mode now is not deleted" />
+    <MESSAGE value="Homework 18 refresh" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 18 refresh" />
   </component>
 </project>
