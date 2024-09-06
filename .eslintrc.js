@@ -12,6 +12,7 @@ module.exports = {
     'no-plusplus': 'off',
     'no-alert': 'off',
     'no-console': 'off',
+    'max-len': 'off',
     strict: 'off',
   },
 };
