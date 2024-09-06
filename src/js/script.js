@@ -69,12 +69,7 @@ const filteredUsers = users.filter((el) => {
   return false;
 });
 
-const usersNumbersList = filteredUsers.map((el) => {
-  if (toNumberBalance(el.balance) > 2000) {
-    return el.phone;
-  }
-  return 'Error';
-});
+const usersNumbersList = filteredUsers.map((el) => el.phone);
 
 console.log(usersNumbersList);
 console.log(`Баланс всіх користувачів: $${Math.round(globalBalanceUsers)}`);
