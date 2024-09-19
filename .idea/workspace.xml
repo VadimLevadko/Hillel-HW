@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7b8787a-381e-4787-8cd7-0b692de873ea" name="Changes" comment="Fixed use strict mode now is not deleted">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_09_2024_13_52_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_09_2024_13_52__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_09_2024_14_31_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_09_2024_14_31__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
     </list>
@@ -25,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw18" />
+        <entry key="$PROJECT_DIR$" value="hw27" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,7 +44,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/VadimLevadko/Hillel-HW.git&quot;,
-    &quot;accountId&quot;: &quot;fb3d0e38-498d-4cd6-aaef-fe515a521556&quot;
+    &quot;accountId&quot;: &quot;93a5c9bf-4ac9-4964-9d03-4009bf1a8509&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -58,7 +63,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw28&quot;,
     &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
@@ -67,7 +72,7 @@
     &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\vadim\\WebstormProjects\\Hillel-HW\\node_modules\\prettier&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Users\\vadim\\WebstormProjects\\Hillel-HW\\node_modules\\prettier&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -81,7 +86,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.22855.79" />
       </set>
     </attachedChunks>
   </component>
@@ -125,6 +130,11 @@
       <workItem from="1724147579819" duration="748000" />
       <workItem from="1725361488902" duration="402000" />
       <workItem from="1725362711290" duration="727000" />
+      <workItem from="1726768979839" duration="152000" />
+      <workItem from="1726769138212" duration="21000" />
+      <workItem from="1726773445975" duration="3170000" />
+      <workItem from="1726776691287" duration="3952000" />
+      <workItem from="1726781464101" duration="1865000" />
     </task>
     <task id="LOCAL-00001" summary="First commit from Webstorm">
       <option name="closed" value="true" />
@@ -341,6 +351,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="RELOAD_CONTEXT" value="false" />
     <MESSAGE value="First commit from Webstorm" />
     <MESSAGE value="Add Script in HTML" />
     <MESSAGE value="Homework 1" />
