@@ -9,7 +9,7 @@ const sumNum = () => {
   };
 };
 
-const test = sumNum();
-console.log(test(3));
-console.log(test(5));
-console.log(test(20));
+const sum = sumNum();
+console.log(sum(3));
+console.log(sum(5));
+console.log(sum(20));
