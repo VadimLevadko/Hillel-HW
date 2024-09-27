@@ -1,6 +1,6 @@
 'use strict';
 
-const body = document.querySelector('body');
+const body = document.getElementsByTagName('body')[0];
 
 const createTable = (columnCount = 10, rowCount = 10) => {
   const table = document.createElement('table');
