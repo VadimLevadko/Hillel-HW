@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/extensions
 import { prependElement } from './commonFuntions.js';
 import {
-  setLocalStorage, getLastDataIndex, dataRemoveItem, getDataItemByIndex,
+  setLocalStorage, getLastDataIndex, dataRemoveItem, getDataItemByIndex, updateDataByIndex,
 // eslint-disable-next-line import/extensions
 } from './localStorage.js';
 // eslint-disable-next-line import/extensions
@@ -16,39 +16,6 @@ const deleteListItem = ({ target }) => {
   listWrapper.remove();
 
   dataRemoveItem(listWrapper.getAttribute('data-todo-item-index'));
-};
-
-const listItemSaveChanges = ({ target }) => {
-  const modalWrapper = document.querySelector('#editModalItem');
-
-  const inputs = Array.from(modalWrapper.querySelectorAll('input, textarea'));
-
-  const newData = inputs.reduce((acc, { name, value }) => {
-    acc[name] = value;
-
-    return acc;
-  }, {});
-
-  console.log(newData);
-};
-
-const editListItem = ({ target }) => {
-  const modalWrapper = document.querySelector('#editModalItem');
-  const listWrapper = getItemWrapper(target);
-  const itemContent = getDataItemByIndex(Number(listWrapper.getAttribute('data-todo-item-index')));
-  modalWrapper.querySelector('[data-modal-title]').innerHTML = `Edit item #${itemContent.index}`;
-  const inputs = modalWrapper.querySelectorAll('input, textarea');
-
-  Object.keys(itemContent).forEach((key) => {
-    inputs.forEach((el) => {
-      // eslint-disable-next-line no-param-reassign
-      if (el.name === key) el.value = itemContent[key];
-    });
-  });
-
-  editModalItem.show();
-
-  modalWrapper.querySelector('[data-modal-btn-save]').addEventListener('click', listItemSaveChanges);
 };
 
 const resetForm = ({ target }) => target.reset();
@@ -92,4 +59,47 @@ export const getContentForm = (event) => {
   resetForm(event);
   setLocalStorage(objectValuesInputs);
   return generateList(objectValuesInputs);
+};
+
+const handlerSaveChanges = () => {
+  const modalWrapper = document.querySelector('#editModalItem');
+  const index = Number(modalWrapper.getAttribute('data-modal-todo-item-index'));
+
+  const arrInputs = Array.from(modalWrapper.querySelectorAll('input, textarea'));
+
+  const newData = arrInputs.reduce((acc, { name, value }) => {
+    acc[name] = value;
+    acc.index = index;
+    return acc;
+  }, {});
+
+  updateDataByIndex(newData);
+
+  const oldTemplate = document.querySelector(`[data-todo-item-index="${index}"]`);
+  oldTemplate.replaceWith(generateList(newData));
+
+  editModalItem.hide();
+};
+
+const editListItem = ({ target }) => {
+  const modalWrapper = document.querySelector('#editModalItem');
+  const listWrapper = getItemWrapper(target);
+  const listWrapperIndex = Number(listWrapper.getAttribute('data-todo-item-index'));
+
+  modalWrapper.setAttribute('data-modal-todo-item-index', listWrapperIndex);
+
+  const itemContent = getDataItemByIndex(listWrapperIndex);
+  modalWrapper.querySelector('[data-modal-title]').innerHTML = `Edit item #${itemContent.index}`;
+  const inputs = modalWrapper.querySelectorAll('input, textarea');
+
+  Object.keys(itemContent).forEach((key) => {
+    inputs.forEach((el) => {
+      // eslint-disable-next-line no-param-reassign
+      if (el.name === key) el.value = itemContent[key];
+    });
+  });
+
+  editModalItem.show();
+
+  modalWrapper.querySelector('[data-modal-btn-save]').addEventListener('click', handlerSaveChanges);
 };

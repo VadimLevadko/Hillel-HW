@@ -14,6 +14,18 @@ export const getLastDataIndex = () => {
   return parsingData.at(-1).index + 1;
 };
 
+export const updateDataByIndex = (data) => {
+  const allData = dataParse(getFullData());
+
+  const indexToEdit = allData.findIndex((el) => el.index === data.index);
+
+  allData[indexToEdit] = {
+    ...data,
+  };
+
+  saveToDoItemsToLocalStorage(allData);
+};
+
 export const getDataItemByIndex = (index) => {
   if (index <= 0) throw new Error('Index should be greater than 0');
 
