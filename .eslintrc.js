@@ -16,6 +16,5 @@ module.exports = {
     'max-len': 'off',
     'func-names': 'off',
     'no-param-reassign': 'off',
-    'import/ extensions': 'off',
   },
 };

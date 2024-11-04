@@ -1,10 +1,15 @@
+import {
+  quantityLessons, summaryTopResultContent, summaryMiddleResultContent, summaryBadResultContent, nowDate,
+} from './options.js';
+
 export default function Student(firstName, lastName, birthday) {
   this.firstName = firstName;
   this.lastName = lastName;
   this.birthday = birthday;
+  this.userAge = nowDate.getFullYear() - new Date(birthday.replace(/(\d{2})\.(\d{2})\.(\d{4})/, '$3-$2-$1')).getFullYear();
   this.currentLesson = 0;
-  this.attendance = new Array(10);
-  this.marks = new Array(10);
+  this.attendance = new Array(quantityLessons);
+  this.marks = new Array(quantityLessons);
 }
 
 Student.prototype.setAttendance = function (isUserPresent) {
@@ -71,15 +76,13 @@ Student.prototype.summary = function () {
     resultText: '',
   };
 
-  console.log(averageMark, averageAttendance);
-
   if (averageMark > 9 && averageAttendance > 0.9) {
-    statistic.resultText = 'Ух ти, який молодчинка!';
+    statistic.resultText = summaryTopResultContent;
     return statistic;
   } if (averageMark >= 9 || averageAttendance >= 0.9) {
-    statistic.resultText = 'Нормально, але можна краще';
+    statistic.resultText = summaryMiddleResultContent;
     return statistic;
   }
-  statistic.resultText = 'Редька!';
+  statistic.resultText = summaryBadResultContent;
   return statistic;
 };

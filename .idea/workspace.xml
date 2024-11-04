@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7b8787a-381e-4787-8cd7-0b692de873ea" name="Changes" comment="feat: added IIFE func, and check type of arg getIndexOfEmptyItem func">
-      <change afterPath="$PROJECT_DIR$/src/js/Student.js" afterDir="false" />
+    <list default="true" id="b7b8787a-381e-4787-8cd7-0b692de873ea" name="Changes" comment="feat: separate to Class to module, added new logic for Student Class. Added new rules for eslint">
+      <change afterPath="$PROJECT_DIR$/src/js/options.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Student.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Student.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +129,7 @@
       <workItem from="1725362711290" duration="727000" />
       <workItem from="1730477646043" duration="790000" />
       <workItem from="1730665832185" duration="5000" />
-      <workItem from="1730751281158" duration="5767000" />
+      <workItem from="1730751281158" duration="7544000" />
     </task>
     <task id="LOCAL-00001" summary="First commit from Webstorm">
       <option name="closed" value="true" />
@@ -347,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730478354996</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat: separate to Class to module, added new logic for Student Class. Added new rules for eslint">
+      <option name="closed" value="true" />
+      <created>1730757205947</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1730757205947</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +381,7 @@
     <MESSAGE value="Homework 15 finished" />
     <MESSAGE value="Fixed use strict mode now is not deleted" />
     <MESSAGE value="feat: added IIFE func, and check type of arg getIndexOfEmptyItem func" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added IIFE func, and check type of arg getIndexOfEmptyItem func" />
+    <MESSAGE value="feat: separate to Class to module, added new logic for Student Class. Added new rules for eslint" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: separate to Class to module, added new logic for Student Class. Added new rules for eslint" />
   </component>
 </project>

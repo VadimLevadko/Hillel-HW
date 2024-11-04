@@ -1,11 +1,10 @@
-'use strict';
-
 import Student from './Student.js';
 
 (function () {
   const student1 = new Student('Vadim', 'Levadko', '25.05.2006');
   const student2 = new Student('Nikita', 'Byzko', '11.08.2006');
   const student3 = new Student('Mark', 'Turkulets', '25.03.2006');
+
   console.log(student1);
   student1.present();
   student1.mark(10);
