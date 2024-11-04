@@ -13,5 +13,9 @@ module.exports = {
     'no-alert': 'off',
     'no-console': 'off',
     strict: 'off',
+    'max-len': 'off',
+    'func-names': 'off',
+    'no-param-reassign': 'off',
+    'import/ extensions': 'off',
   },
 };
