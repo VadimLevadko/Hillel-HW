@@ -16,5 +16,6 @@ module.exports = {
     'max-len': 'off',
     'func-names': 'off',
     'no-param-reassign': 'off',
+    'no-underscore-dangle': 'off',
   },
 };
