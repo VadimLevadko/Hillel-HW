@@ -13,37 +13,39 @@
     </head>
     <body>
         <h1>Homework 46</h1>
-        <form class="form">
-            <div
-                data-input-id-wrapper
-                class="input-group form-control input-group-lg"
-            >
-                <span class="input-group-text" id="inputGroup-sizing-lg"
-                    >Post ID</span
+        <div data-form-container class="container">
+            <form data-form-find-post class="form">
+                <div
+                    data-input-id-wrapper
+                    class="input-group form-control input-group-lg"
                 >
-                <input
-                    type="number"
-                    data-form-input-id
-                    class="form-control"
-                    aria-label="Sizing example input"
-                    aria-describedby="inputGroup-sizing-lg"
-                />
-            </div>
-            <div class="col-12">
-                <button
-                    data-form-submit
-                    class="btn btn-primary"
-                    type="submit"
-                    disabled
-                >
-                    Find Post
-                </button>
-            </div>
-            <div
-                data-id-finder-error
-                class="bd-callout bd-callout-danger bold d-none me-auto ms-auto"
-            ></div>
-        </form>
+                    <span class="input-group-text" id="inputGroup-sizing-lg"
+                        >Post ID</span
+                    >
+                    <input
+                        type="number"
+                        data-form-input-id
+                        class="form-control"
+                        aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-lg"
+                    />
+                </div>
+                <div class="col-12">
+                    <button
+                        data-form-submit
+                        class="btn btn-primary"
+                        type="submit"
+                        disabled
+                    >
+                        Find Post
+                    </button>
+                </div>
+                <div
+                    data-id-finder-error
+                    class="bd-callout bd-callout-danger bold d-none me-auto ms-auto"
+                ></div>
+            </form>
+        </div>
     </body>
     <script type="module" src="js/script.js"></script>
 </html>

@@ -16,5 +16,15 @@ module.exports = {
     'max-len': 'off',
     'func-names': 'off',
     'no-param-reassign': 'off',
+    'consistent-return': 'off',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'always',
+        mjs: 'never',
+        jsx: 'never',
+      },
+    ],
   },
 };
